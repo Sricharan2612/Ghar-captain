@@ -1,0 +1,167 @@
+/* Navbar section */
+.navbar{
+    background-color: #fff;
+}
+
+.active{
+ color: #ed6a5a !important;
+ font-weight: 700 !important;
+}
+
+/* .navbar-brand{
+    margin-right: 300px !important;
+} */
+
+.loginBtn{
+    background-color: transparent;
+    border: 2px solid transparent;
+    font-size: 17px;
+    padding: 5px 24px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.loginBtn:hover{
+    background-color: gainsboro;
+}
+
+.registerBtn{
+    background-color: transparent;
+    border: 2px solid transparent;
+    font-size: 17px;
+    padding: 5px 20px;
+    background-color: #ed6a5a;
+    color: #fff;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.registerBtn:hover{
+    background-color: #879392;
+}
+
+/* Main section */
+.main-section{
+    padding: 100px 50px !important;
+}
+
+.main-section-heading{
+    font-size: 50px !important;
+    font-weight: 700 !important;
+}
+
+.getStartedBtn{
+    padding: 5px 20px !important;
+    background-color: #ed6a5a;
+    color: #fff;
+    border: 2px solid transparent;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.getStartedBtn:hover{
+    background-color: #879392;
+}
+
+.learnMoreBtn{
+    padding: 5px 20px !important;
+    background-color:#fff;
+    border: 2px solid transparent;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.learnMoreBtn > i{
+    font-size: 15px;
+}
+
+.learnMoreBtn:hover{
+    background-color: gainsboro;
+    
+}
+
+/* Sub-section-1 */
+.sub-section-1{
+    background-color: #5d576b !important;
+    padding: 60px 50px;
+    color: #fff;
+}
+
+.sub-section-heading-1{
+    font-size: 12px !important;    
+}
+
+.sub-section-box{
+    background-color: #656073;
+}
+
+.bi-box::before{
+    vertical-align: 0px;
+}
+
+/* Sub-section-2 */
+.sub-section-2{
+    padding: 70px 50px;
+}
+
+.sub-section-2-h1{
+    font-size: 13px;
+}
+
+.sub-section-2-box{
+    background-color: #e6ebe0;
+}
+.sub-section-2-box-price{
+    font-size: 65px;
+}
+
+.box-tick{
+    font-size: 13px;
+    font-weight: lighter;
+    color: #000;
+}
+
+.box-btn-color{
+    background-color: #ed6a5a !important;
+    color:#fff !important;
+    border-color: transparent;
+   
+}
+.box-btn-color:hover{
+    background-color: #879392 !important;
+    color:#fff !important;
+    border-color: transparent;
+}
+
+.box-btn-color:active{
+    transform: scale(0.9);
+     outline: none;
+}
+
+/* Sub-section-3 */
+.sub-section-3{
+     padding: 50px 50px 90px 50px !important;
+}
+
+/* Sub-section-4 */
+.sub-section-4{
+    background-color: #e6ebe0;
+    padding: 60px 50px;
+}
+
+/* Footer-section */
+.footer-section{
+    padding: 60px 50px;
+}
+.footer-copyright{
+    font-size: 17px;
+}
+
+.footer-sm-icons{
+    font-size: 21px !important;
+}
+
+/* Responsiveness */
+@media only screen and (max-width:600px) {
+    .main-section{
+        padding: 60px 30px !important;
+    }
+}
